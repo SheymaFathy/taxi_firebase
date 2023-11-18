@@ -20,6 +20,7 @@ version: 1.0.0+1
 
 environment:
   sdk: '>=3.1.5 <4.0.0'
+  
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -30,6 +31,18 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter 
+  get: ^4.6.6
+  get_storage: ^2.1.1
+  url_launcher: ^6.1.14
+  http: ^1.1.0
+  bottom_sheet: ^4.0.0
+  flutter_otp_text_field: ^1.1.1
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  geocoding: ^2.1.1
+  flutter_polyline_points: ^2.0.0
 
 
   # The following adds the Cupertino Icons font to your application.
